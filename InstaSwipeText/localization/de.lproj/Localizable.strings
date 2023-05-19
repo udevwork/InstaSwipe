@@ -1,0 +1,74 @@
+"L_AppName" = "Winst";
+
+"L_Back" = "Zurück";
+"L_Colors" = "Farben";
+"L_Fonts" = "Schriftarten";
+"L_Preview" = "Vorschau";
+"L_Almost_there" = "Fast da!";
+"L_PER" = "FÜR";
+
+// Anpassung
+"L_Onboard_Title_1" = "Wählen Sie eine Vorlage!";
+"L_Onboard_SubTitle_1" = "Probieren Sie verschiedene Optionen aus, um Ihre Fotogalerie attraktiver zu gestalten.";
+"L_Onboard_Title_2" = "Bearbeiten Sie Fotos und erstellen Sie Designs!";
+"L_Onboard_SubTitle_2" = "Wählen Sie das perfekte Foto, die Schriftart und die Farbe aus!";
+"L_Onboard_Title_3" = "Beeindrucken Sie Ihre Follower!";
+"L_Onboard_SubTitle_3" = "Teilen Sie dies in den sozialen Netzwerken!";
+"L_NEXT" = "Weiter";
+"L_FINISH" = "Starten!";
+
+"L_SelectPhotoButtonText" = "Wählen Sie ein Foto";
+"L_SelectColorButtonText" = "Wählen Sie eine Farbe";
+"L_ChooseFontButtonText" = "Wählen Sie eine Schriftart";
+"L_SaveImagesToPhotosButtonText" = "Speichern!";
+"L_SuccessSavigAlertText" = "In der Galerie gespeichert!";
+"L_EditorNavigationTitle" = "Editor";
+"L_DefTemplateTitleText" = "Titel";
+"L_DefTemplateArticleText" = "Platzieren Sie Ihren Text hier. Wenn die Vorlage es Ihnen ermöglicht, ein Bild hinzuzufügen, können Sie es verschieben und skalieren.";
+
+"L_PremiumUppercase" = "PREMIUM";
+"L_SubscribtionDescription" = "● Entfernen Sie das Werbetag von Ihren Fotos.\n● Vollzugriff auf alle Vorlagen";
+"L_week" = "Woche";
+"L_day" = "Tag";
+"L_month" = "Monat";
+"L_year" = "Jahr";
+"L_SubscribtionDetails" = "Nach der 3-tägigen kostenlosen Testversion. Periodische Abrechnung. Jederzeit kündbar. Nach der 3-tägigen kostenlosen Testversion wird das Abonnement automatisch aktiviert.";
+"L_PrivacyPolicyLabel" = "Datenschutzbestimmungen";
+"L_TermsConditionsLabel" = "Geschäftsbedingungen";
+"L_restore purchaselabel" = "Kauf wiederherstellen";
+"L_TryItForFreeLabel" = "Kostenlos ausprobieren!";
+
+"L_HomeSectionMainTitle" = "Erstaunlich!";
+"L_HomeSectionMainSubtitle" = "Die Bearbeitung von Fotos war noch nie so einfach! Probieren Sie es aus!";
+"L_HomeSectionCreateTitle" = "Hallo";
+"L_HomeSectionCreateSubtitle" = "Wählen Sie eine Vorlage zum Posten.";
+"L_HomeSectionTemplates" = "Vorlagen";
+"L_HomeMenuItemSquareTemplate" = "Quadratischer Text";
+"L_HomeMenuItemImageAndText" = "Bild mit Menü";
+"L_HomeMenuItemStoriesText" = "Story-Text";
+
+"L_CreditsDesignBy" = "Design von Denis in Österreich";
+"L_Copyright" = "Urheberrecht © 2023. Alle Rechte vorbehalten.";
+"L_CreatedWith" = "Erstellt mit";
+
+// Template-Beschreibungen
+"L_StoryTextTemplateDescription" = "Ein einfacher Block mit Überschrift und Text. Am besten geeignet für Stories.";
+"L_TextWithImageDescription" = "Text und Foto. Das Foto überlappt den Textbereich leicht.";
+"L_ImageWithTextDescription" = "Foto und Text. Das Foto überlappt den Textbereich leicht.";
+"L_SquareWithTextTemplateDescription" = "Quadrat mit Text. Durch seine Einfachheit zieht es Aufmerksamkeit auf sich.";
+"L_LargeTextWithImageDescription" = "Der Textteil nimmt einen großen Teil ein. Er überlagert das Foto.";
+"L_ImageWithLargeTextDescription" = "Der Textteil nimmt einen großen Teil ein. Er überlagert das Foto.";
+
+"L_StoryTextTemplateMenuItemName" = "Story mit Text";
+"L_TextWithImageMenuItemName" = "Text mit Bild";
+"L_ImageWithTextMenuItemName" = "Bild mit Text";
+"L_SquareWithTextTemplateMenuItemName" = "Quadrat mit Text";
+"L_LargeTextWithImageMenuItemName" = "Breiter Text mit Bild";
+"L_ImageWithLargeTextMenuItemName" = "Bild mit breitem Text";
+
+"L_square_Description" = "Quadratischer Beitrag";
+"L_rectangle_Description" = "Rechteckiger Beitrag";
+"L_high_Description" = "Story-Format";
+"L_wide_Description" = "Zwei quadratische Bilder";
+
+"L_ApplyButtonText" = "Anwenden";

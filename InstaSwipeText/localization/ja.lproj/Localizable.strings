@@ -1,0 +1,74 @@
+"L_AppName" = "ウィンスト";
+
+"L_Back" = "戻る";
+"L_Colors" = "色";
+"L_Fonts" = "フォント";
+"L_Preview" = "プレビュー";
+"L_Almost_there" = "もうすぐ!";
+"L_PER" = "ごとに";
+
+// アダプテーション
+"L_Onboard_Title_1" = "テンプレートを選択してください！";
+"L_Onboard_SubTitle_1" = "さまざまなオプションを試して、あなたの写真ギャラリーを美しくしましょう。";
+"L_Onboard_Title_2" = "写真を編集し、デザインを作成しましょう！";
+"L_Onboard_SubTitle_2" = "理想的な写真、フォント、色を選択してください！";
+"L_Onboard_Title_3" = "あなたのフォロワーに印象を与えましょう！";
+"L_Onboard_SubTitle_3" = "これをソーシャルネットワークで共有しましょう！";
+"L_NEXT" = "次へ";
+"L_FINISH" = "開始！";
+
+"L_SelectPhotoButtonText" = "写真を選択";
+"L_SelectColorButtonText" = "色を選択";
+"L_ChooseFontButtonText" = "フォントを選択";
+"L_SaveImagesToPhotosButtonText" = "保存！";
+"L_SuccessSavigAlertText" = "ギャラリーに保存されました！";
+"L_EditorNavigationTitle" = "エディタ";
+"L_DefTemplateTitleText" = "タイトル";
+"L_DefTemplateArticleText" = "あなたのテキストをここに配置してください。テンプレートが画像を追加することを許可している場合、それを移動したりスケールを変更したりできます。";
+
+"L_PremiumUppercase" = "プレミアム";
+"L_SubscribtionDescription" = "● あなたの写真から広告のタグを削除します。\n● 全てのテンプレートへの完全なアクセス";
+"L_week" = "週";
+"L_day" = "日";
+"L_month" = "月";
+"L_year" = "年";
+"L_SubscribtionDetails" = "3日間の無料試用期間後。周期的な請求。いつでもキャンセル可能。3日間の無料試用期間後、サブスクリプションは自動的に有効になります。";
+"L_PrivacyPolicyLabel" = "プライバシーポリシー";
+"L_TermsConditionsLabel" = "利用規約";
+"L_restore purchaselabel" = "購入を復元";
+"L_TryItForFreeLabel" = "無料で試す！";
+
+"L_HomeSectionMainTitle" = "素晴らしい！";
+"L_HomeSectionMainSubtitle" = "写真編集がこれまでになく簡単になりました！ぜひ試してみてください！";
+"L_HomeSectionCreateTitle" = "こんにちは";
+"L_HomeSectionCreateSubtitle" = "投稿するテンプレートを選択してください。";
+"L_HomeSectionTemplates" = "テンプレート";
+"L_HomeMenuItemSquareTemplate" = "正方形のテキスト";
+"L_HomeMenuItemImageAndText" = "メニュー付きの画像";
+"L_HomeMenuItemStoriesText" = "ストーリーズテキスト";
+
+"L_CreditsDesignBy" = "オーストリアのデニスによるデザイン";
+"L_Copyright" = "著作権 © 2023. すべての権利は保護されています。";
+"L_CreatedWith" = "作成ツール";
+
+// テンプレートの説明
+"L_StoryTextTemplateDescription" = "タイトルとテキストのあるシンプルなブロック。ストーリーズに最適です。";
+"L_TextWithImageDescription" = "テキストと写真。写真はテキスト部分を少し重ねます。";
+"L_ImageWithTextDescription" = "写真とテキスト。写真はテキスト部分を少し重ねます。";
+"L_SquareWithTextTemplateDescription" = "テキストのある正方形。シンプルさで注目を集めます。";
+"L_LargeTextWithImageDescription" = "テキスト部分が大部分を占めます。写真に重ねられます。";
+"L_ImageWithLargeTextDescription" = "テキスト部分が大部分を占めます。写真に重ねられます。";
+
+"L_StoryTextTemplateMenuItemName" = "テキスト付きストーリー";
+"L_TextWithImageMenuItemName" = "画像付きテキスト";
+"L_ImageWithTextMenuItemName" = "テキスト付き画像";
+"L_SquareWithTextTemplateMenuItemName" = "テキスト付き正方形";
+"L_LargeTextWithImageMenuItemName" = "画像付きの広いテキスト";
+"L_ImageWithLargeTextMenuItemName" = "広いテキストのある画像";
+
+"L_square_Description" = "正方形の投稿";
+"L_rectangle_Description" = "長方形の投稿";
+"L_high_Description" = "ストーリーフォーマット";
+"L_wide_Description" = "二つの正方形の画像";
+
+"L_ApplyButtonText" = "適用";

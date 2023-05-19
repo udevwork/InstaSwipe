@@ -1,0 +1,76 @@
+"L_AppName" = "Winst";
+
+"L_Back" = "Back";
+"L_Colors" = "Colors";
+"L_Fonts" = "Fonts";
+"L_Preview" = "Preview";
+"L_Almost_there" = "Almost there!";
+"L_PER" = "FOR";
+
+// Adaptation
+"L_Onboard_Title_1" = "Choose a template!";
+"L_Onboard_SubTitle_1" = "Try different options to make your photo strip beautiful.";
+"L_Onboard_Title_2" = "Edit photos and create a design!";
+"L_Onboard_SubTitle_2" = "Choose the perfect photo, font, and color!";
+"L_Onboard_Title_3" = "Impress your followers!";
+"L_Onboard_SubTitle_3" = "Share this on social networks!";
+"L_NEXT" = "Next";
+"L_FINISH" = "Start!";
+
+"L_SelectPhotoButtonText" = "Select a photo";
+"L_SelectColorButtonText" = "Choose color";
+"L_ChooseFontButtonText" = "Choose font";
+"L_SaveImagesToPhotosButtonText" = "Save!";
+"L_SuccessSavigAlertText" = "Saved to the gallery!";
+"L_EditorNavigationTitle" = "Editor";
+"L_DefTemplateTitleText" = "Title";
+"L_DefTemplateArticleText" = "Place your text here. If the template allows you to add an image, you can move it and change the scale.";
+
+"L_PremiumUppercase" = "PREMIUM";
+"L_SubscribtionDescription" = "● Remove the ad label from your photos.\n● Full access to all templates";
+"L_week" = "week";
+"L_day" = "day";
+"L_month" = "month";
+"L_year" = "year";
+"L_SubscribtionDetails" = "After a 3-day free trial. Periodic billing. Cancel at any time. After a 3-day free trial, the subscription is automatically activated.";
+"L_PrivacyPolicyLabel" = "Privacy Policy";
+"L_TermsConditionsLabel" = "Terms and Conditions";
+"L_restore purchaselabel" = "Restore purchase";
+"L_TryItForFreeLabel" = "Try it for free!";
+
+"L_HomeSectionMainTitle" = "Awesome!";
+"L_HomeSectionMainSubtitle" = "Editing photos has never been so easy! Try it!";
+"L_HomeSectionCreateTitle" = "Hello";
+"L_HomeSectionCreateSubtitle" = "Choose a template for publication.";
+"L_HomeSectionTemplates" = "Templates";
+"L_HomeMenuItemSquareTemplate" = "Square text";
+"L_HomeMenuItemImageAndText" = "Image with menu";
+"L_HomeMenuItemStoriesText" = "Stories text";
+
+"L_CreditsDesignBy" = "Design by Denis in Austria";
+"L_Copyright" = "Copyright © 2023. All rights reserved.";
+"L_CreatedWith" = "Created with";
+
+// Template descriptions
+"L_StoryTextTemplateDescription" = "Simple block with title and text. Best suited for stories.";
+"L_TextWithImageDescription" = "Text and photo. The photo slightly overlaps the text part.";
+"L_ImageWithTextDescription" = "Photo and text. The photo slightly overlaps the text part.";
+"L_SquareWithTextTemplateDescription" = "Square with text. Attracts attention with its simplicity.";
+// new
+"L_LargeTextWithImageDescription" = "Text and photo. The photo slightly overlaps the text part.";
+"L_ImageWithLargeTextDescription" = "Photo and text. The photo slightly overlaps the text part.";
+
+"L_StoryTextTemplateMenuItemName" = "Story with text";
+"L_TextWithImageMenuItemName" = "Text with image";
+"L_ImageWithTextMenuItemName" = "Image with text";
+"L_SquareWithTextTemplateMenuItemName" = "Square with text";
+// new
+"L_LargeTextWithImageMenuItemName" = "Wide text with image";
+"L_ImageWithLargeTextMenuItemName" = "Image with wide text";
+
+"L_square_Description" = "Square post";
+"L_rectangle_Description" = "Rectangle post";
+"L_high_Description" = "Story format";
+"L_wide_Description" = "Two square images";
+
+"L_ApplyButtonText" = "Apply";

@@ -1,0 +1,74 @@
+"L_AppName" = "Winst";
+
+"L_Back" = "返回";
+"L_Colors" = "顏色";
+"L_Fonts" = "字體";
+"L_Preview" = "預覽";
+"L_Almost_there" = "快到了！";
+"L_PER" = "為了";
+
+// Adaptation
+"L_Onboard_Title_1" = "選擇一個模板！";
+"L_Onboard_SubTitle_1" = "嘗試不同的選擇，使您的照片帶更加精美。";
+"L_Onboard_Title_2" = "編輯照片並創建設計！";
+"L_Onboard_SubTitle_2" = "選擇完美的照片、字體和顏色！";
+"L_Onboard_Title_3" = "讓你的追蹤者感到驚艷！";
+"L_Onboard_SubTitle_3" = "在社交網絡上分享這個！";
+"L_NEXT" = "下一個";
+"L_FINISH" = "開始！";
+
+"L_SelectPhotoButtonText" = "選擇照片";
+"L_SelectColorButtonText" = "選擇顏色";
+"L_ChooseFontButtonText" = "選擇字體";
+"L_SaveImagesToPhotosButtonText" = "保存！";
+"L_SuccessSavigAlertText" = "已保存到畫廊！";
+"L_EditorNavigationTitle" = "編輯器";
+"L_DefTemplateTitleText" = "標題";
+"L_DefTemplateArticleText" = "在這裡放置您的文字。如果模板允許您添加圖片，您可以移動它並更改比例。";
+
+"L_PremiumUppercase" = "優質";
+"L_SubscribtionDescription" = "● 從您的照片中刪除廣告標籤。\n● 全面訪問所有模板";
+"L_week" = "週";
+"L_day" = "天";
+"L_month" = "月";
+"L_year" = "年";
+"L_SubscribtionDetails" = "免費試用3天後，定期結算。隨時取消。免費試用3天後，訂閱將自動啟動。";
+"L_PrivacyPolicyLabel" = "隱私政策";
+"L_TermsConditionsLabel" = "條款和條件";
+"L_restore purchaselabel" = "恢復購買";
+"L_TryItForFreeLabel" = "免費試用！";
+
+"L_HomeSectionMainTitle" = "太棒了！";
+"L_HomeSectionMainSubtitle" = "編輯照片從未如此簡單！試試看！";
+"L_HomeSectionCreateTitle" = "你好";
+"L_HomeSectionCreateSubtitle" = "選擇一個發布模板。";
+"L_HomeSectionTemplates" = "模板";
+"L_HomeMenuItemSquareTemplate" = "正方形文字";
+"L_HomeMenuItemImageAndText" = "圖片與文本";
+"L_HomeMenuItemStoriesText" = "故事文本";
+
+"L_CreditsDesignBy" = "由奧地利的Denis設計";
+"L_Copyright" = "版權© 2023. 版權所有。";
+"L_CreatedWith" = "由...製作";
+
+// Template descriptions
+"L_StoryTextTemplateDescription" = "標題和文本的簡單區塊。最適合故事。";
+"L_TextWithImageDescription" = "文本和照片。照片略微重疊文本部分。";
+"L_ImageWithTextDescription" = "照片和文本。照片略微重疊文本部分。";
+"L_SquareWithTextTemplateDescription" = "帶文本的正方形。以其簡單性吸引注意力。";
+"L_LargeTextWithImageDescription" = "文字部分佔了大部分。它覆蓋了照片。";
+"L_ImageWithLargeTextDescription" = "文字部分佔了大部分。它覆蓋了照片。";
+
+"L_StoryTextTemplateMenuItemName" = "帶有文字的故事";
+"L_TextWithImageMenuItemName" = "帶有圖像的文字";
+"L_ImageWithTextMenuItemName" = "帶有文字的圖像";
+"L_SquareWithTextTemplateMenuItemName" = "帶有文字的正方形";
+"L_LargeTextWithImageMenuItemName" = "寬文本與圖像";
+"L_ImageWithLargeTextMenuItemName" = "圖像與寬文本";
+
+"L_square_Description" = "正方形貼文";
+"L_rectangle_Description" = "長方形貼文";
+"L_high_Description" = "故事格式";
+"L_wide_Description" = "兩個正方形圖像";
+
+"L_ApplyButtonText" = "應用";

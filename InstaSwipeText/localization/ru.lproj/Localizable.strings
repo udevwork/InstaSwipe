@@ -1,0 +1,76 @@
+"L_AppName" = "Winst";
+
+"L_Back" = "Назад";
+"L_Colors" = "Цвета";
+"L_Fonts" = "Шрифты";
+"L_Preview" = "Просмотр";
+"L_Almost_there" = "Уже почти!";
+"L_PER" = "ЗА";
+
+// адаптация
+"L_Onboard_Title_1" = "Выберите шаблон!";
+"L_Onboard_SubTitle_1" = "Попробуйте разные варианты, чтобы сделать вашу ленту фотографий красивой";
+"L_Onboard_Title_2" = "Редактируйте фото и создавайте дизайн!";
+"L_Onboard_SubTitle_2" = "Выберите идеальную фотографию, шрифт и цвет!";
+"L_Onboard_Title_3" = "Произведите впечатление на своих подписчиков!";
+"L_Onboard_SubTitle_3" = "Поделитесь этим в социальных сетях!";
+"L_NEXT" = "Дальше";
+"L_FINISH" = "Начать!";
+
+"L_SelectPhotoButtonText" = "Выберите фотографию";
+"L_SelectColorButtonText" = "Выбрать цвет";
+"L_ChooseFontButtonText" = "Выбрать шрифт";
+"L_SaveImagesToPhotosButtonText" = "Сохранить!";
+"L_SuccessSavigAlertText" = "Сохранено в галерее!";
+"L_EditorNavigationTitle" = "Редактор";
+"L_DefTemplateTitleText" = "Заголовок";
+"L_DefTemplateArticleText" = "Разместите свой текст здесь. Если шаблон позволяет вам добавить изображение, вы можете переместить его и изменить масштаб.";
+
+"L_PremiumUppercase" = "ПРЕМИУМ";
+"L_SubscribtionDescription" = "● Удалите ярлык рекламы с ваших фотографий.\n● Полный доступ ко всем шаблонам";
+"L_week" = "неделю";
+"L_day" = "день";
+"L_month" = "месяц";
+"L_year" = "год";
+"L_SubscribtionDetails" = "После 3-дневной бесплатной пробной версии. Периодическое выставление счетов. Отмените в любое время. После 3-дневной бесплатной пробной версии подписка автоматически активируется.";
+"L_PrivacyPolicyLabel" = "Политика конфиденциальности";
+"L_TermsConditionsLabel" = "Правила и условия";
+"L_restore purchaselabel" = "Восстановить покупку";
+"L_TryItForFreeLabel" = "Попробуйте бесплатно!";
+
+"L_HomeSectionMainTitle" = "Потрясающе!";
+"L_HomeSectionMainSubtitle" = "Никогда еще редактирование фотографий не было таким простым! Попробуйте!";
+"L_HomeSectionCreateTitle" = "Привет";
+"L_HomeSectionCreateSubtitle" = "Выберите шаблон для публикации";
+"L_HomeSectionTemplates" = "Шаблоны";
+"L_HomeMenuItemSquareTemplate" = "Квадратный текст";
+"L_HomeMenuItemImageAndText" = "Изображение с меню";
+"L_HomeMenuItemStoriesText" = "Текст историй";
+
+"L_CreditsDesignBy" = "Дизайн Дениса в Австрии";
+"L_Copyright" = "Авторское право © 2023. Все права защищены";
+"L_CreatedWith" = "Создано в";
+
+// Описания шаблонов
+"L_StoryTextTemplateDescription" = "Простой блок с заголовком и текстом. Лучше всего подходит для историй.";
+"L_TextWithImageDescription" = "Фото немного перекрывает часть с текстом.";
+"L_ImageWithTextDescription" = "Фото немного перекрывает часть с текстом.";
+"L_SquareWithTextTemplateDescription" = "Квадрат с текстом. Привлекает внимание простотой.";
+// new
+"L_LargeTextWithImageDescription" = "Часть с текстом занимает большую часть. Накладывается на фото.";
+"L_ImageWithLargeTextDescription" = "Часть с текстом занимает большую часть. Накладывается на фото.";
+
+"L_StoryTextTemplateMenuItemName" = "История с текстом";
+"L_TextWithImageMenuItemName" = "Текст с изображением";
+"L_ImageWithTextMenuItemName" = "Изображение с текстом";
+"L_SquareWithTextTemplateMenuItemName" = "Квадрат с текстом";
+// new
+"L_LargeTextWithImageMenuItemName" = "Текст и фото";
+"L_ImageWithLargeTextMenuItemName" = "Фото и текст";
+
+"L_square_Description" = "Квадратный пост";
+"L_rectangle_Description" = "Прямоугольный пост";
+"L_high_Description" = "Формат истории";
+"L_wide_Description" = "Два квадратных изображения";
+
+"L_ApplyButtonText" = "Применить";

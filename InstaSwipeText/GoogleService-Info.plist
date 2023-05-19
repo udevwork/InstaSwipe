@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>374585649789-ndsnrvtprpi8nbcf15di9gdj720rkp0u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.374585649789-ndsnrvtprpi8nbcf15di9gdj720rkp0u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkUfQ4Qp_V42cjdzWyS9e1ppmaZ5uc3s8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>374585649789</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>live.InstaSwipeText</string>
+	<key>PROJECT_ID</key>
+	<string>winst-e09fb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>winst-e09fb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:374585649789:ios:1b2f7e21975323093b1f14</string>
+</dict>
+</plist>

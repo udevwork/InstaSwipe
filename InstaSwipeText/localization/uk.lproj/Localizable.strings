@@ -1,0 +1,74 @@
+"L_AppName" = "Winst";
+
+"L_Back" = "Назад";
+"L_Colors" = "Кольори";
+"L_Fonts" = "Шрифти";
+"L_Preview" = "Перегляд";
+"L_Almost_there" = "Вже майже!";
+"L_PER" = "ЗА";
+
+// адаптація
+"L_Onboard_Title_1" = "Виберіть шаблон!";
+"L_Onboard_SubTitle_1" = "Спробуйте різні варіанти, щоб зробити вашу стрічку фотографій красивою";
+"L_Onboard_Title_2" = " Редагуйте фото і створюйте дизайн!";
+"L_Onboard_SubTitle_2" = "Виберіть ідеальну фотографію, шрифт і колір!";
+"L_Onboard_Title_3" = " вразити своїх підписників!";
+"L_Onboard_SubTitle_3" = "Поділіться цим у соціальних мережах!";
+"L_NEXT" = "далі";
+"L_FINISH" = " почати!";
+
+"L_SelectPhotoButtonText" = "Виберіть фотографію";
+"L_SelectColorButtonText" = "вибрати колір";
+"L_ChooseFontButtonText" = "вибрати шрифт";
+"L_SaveImagesToPhotosButtonText" = "Зберегти!";
+"L_SuccessSavigAlertText" = "Збережено в галереї!";
+"L_EditorNavigationTitle" = "Редактор";
+"L_DefTemplateTitleText" = "Заголовок";
+"L_DefTemplateArticleText" = "Розмістіть свій текст тут. Якщо шаблон дозволяє додати зображення, ви можете перемістити його та змінити масштаб.";
+
+"L_PremiumUppercase" = "ПРЕМIУМ";
+"L_SubscribtionDescription" = "● Видаліть ярлик реклами зі своїх фотографій.\ n● Повний доступ до всіх шаблонів";
+"L_week" = "тиждень";
+"L_day" = "день";
+"L_month" = "місяць";
+"L_year" = "рік";
+"L_SubscribtionDetails" = "Після 3-денної безкоштовної пробної версії. Періодичне виставлення рахунків. Скасувати в будь-який час. Після 3-денної безкоштовної пробної версії підписка автоматично активується.";
+"L_PrivacyPolicyLabel" = "Політика конфіденційності";
+"L_TermsConditionsLabel" = "Правила та умови";
+"L_restore purchaselabel" = "відновити покупку";
+"L_TryItForFreeLabel" = " Спробуйте безкоштовно!";
+
+"L_HomeSectionMainTitle" = " Дивовижно!";
+"L_HomeSectionMainSubtitle" = "Ніколи редагування фотографій не було таким простим! Спробуйте!";
+"L_HomeSectionCreateTitle" = "Привіт";
+"L_HomeSectionCreateSubtitle" = "виберіть шаблон для публікації";
+"L_HomeSectionTemplates" = "Шаблони";
+"L_HomeMenuItemSquareTemplate" = "квадратний текст";
+"L_HomeMenuItemImageAndText" = "зображення з меню";
+"L_HomeMenuItemStoriesText" = "текст історій";
+
+"L_CreditsDesignBy" = "дизайн Дениса в Австрії";
+"L_Copyright" = "авторське право © 2023. Всі права захищені";
+"L_CreatedWith" = "створено в";
+
+// Описи шаблонів
+"L_StoryTextTemplateDescription" = "Простий блок із заголовком та текстом. Найкраще підходить для історій.";
+"L_TextWithImageDescription" = "Текст і фото. Фото трохи перекриває частину з текстом.";
+"L_ImageWithTextDescription" = "Фото і текст. Фото трохи перекриває частину з текстом.";
+"L_SquareWithTextTemplateDescription" = "Квадрат з текстом. Привертає увагу простотою.";
+"L_LargeTextWithImageDescription" = "Частина з текстом займає велику частину. Накладається на фото.";
+"L_ImageWithLargeTextDescription" = "Частина з текстом займає велику частину. Накладається на фото.";
+
+"L_StoryTextTemplateMenuItemName" = "Історія з текстом";
+"L_TextWithImageMenuItemName" = "Текст із зображенням";
+"L_ImageWithTextMenuItemName" = "зображення з текстом";
+"L_SquareWithTextTemplateMenuItemName" = "Квадрат з текстом";
+"L_LargeTextWithImageMenuItemName" = "Широкий текст з зображенням";
+"L_ImageWithLargeTextMenuItemName" = "Зображення з широким текстом";
+
+"L_square_Description" = "квадратний пост";
+"L_rectangle_Description" = "прямокутний пост";
+"L_high_Description" = "формат історії";
+"L_wide_Description" = "два квадратних зображення";
+
+"L_ApplyButtonText" = "Застосувати";
