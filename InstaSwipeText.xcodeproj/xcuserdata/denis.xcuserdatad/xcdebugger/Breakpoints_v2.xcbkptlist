@@ -3,4 +3,198 @@
    uuid = "EFCE3F32-C314-4907-A19B-CA7288029631"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BA7EC60-F8AF-47A3-842C-07693AA440FC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaSwipeText/Views/Screens/SubscriptionView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96047FF9-ED25-4333-BEA6-A14B57F4FB7F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaSwipeText/Data/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "subscribe(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96047FF9-ED25-4333-BEA6-A14B57F4FB7F - 3c559e04d48b15d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InstaSwipeText.User.subscribe((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "InstaSwipeText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denis/XcodeProjects/InstaSwipe/InstaSwipeText/Data/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "96047FF9-ED25-4333-BEA6-A14B57F4FB7F - edc88f09215a1c7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RevenueCat.IntroEligibilityStatus) -&gt; () in InstaSwipeText.User.subscribe((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "InstaSwipeText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denis/XcodeProjects/InstaSwipe/InstaSwipeText/Data/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E71103C-21AD-4E05-874C-1E7672B6974A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaSwipeText/Data/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "subscribe(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3E71103C-21AD-4E05-874C-1E7672B6974A - edc88f09215a1c5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RevenueCat.IntroEligibilityStatus) -&gt; () in InstaSwipeText.User.subscribe((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "InstaSwipeText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denis/XcodeProjects/InstaSwipe/InstaSwipeText/Data/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "3E71103C-21AD-4E05-874C-1E7672B6974A - 90110fa16abe1a1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor @Sendable (Swift.Optional&lt;RevenueCat.StoreTransaction&gt;, Swift.Optional&lt;RevenueCat.CustomerInfo&gt;, Swift.Optional&lt;__C.NSError&gt;, Swift.Bool) -&gt; () in closure #1 (RevenueCat.IntroEligibilityStatus) -&gt; () in InstaSwipeText.User.subscribe((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "InstaSwipeText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denis/XcodeProjects/InstaSwipe/InstaSwipeText/Data/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F250885F-0F96-4674-911D-6327236A4318"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaSwipeText/Data/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "subscribe(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F250885F-0F96-4674-911D-6327236A4318 - edc88f09215a1f81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RevenueCat.IntroEligibilityStatus) -&gt; () in InstaSwipeText.User.subscribe((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "InstaSwipeText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denis/XcodeProjects/InstaSwipe/InstaSwipeText/Data/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "F250885F-0F96-4674-911D-6327236A4318 - db05498307756342"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 @Swift.MainActor @Sendable (Swift.Optional&lt;RevenueCat.StoreTransaction&gt;, Swift.Optional&lt;RevenueCat.CustomerInfo&gt;, Swift.Optional&lt;__C.NSError&gt;, Swift.Bool) -&gt; () in closure #1 (RevenueCat.IntroEligibilityStatus) -&gt; () in InstaSwipeText.User.subscribe((Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "InstaSwipeText"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/denis/XcodeProjects/InstaSwipe/InstaSwipeText/Data/User.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBE14E5B-E9A2-481A-B4D0-0F4FFFB963AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaSwipeText/Data/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "subscribe(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EB01BFD-CAA6-446E-89C4-4B15D97F2680"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "InstaSwipeText/Data/User.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "subscribe(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

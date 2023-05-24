@@ -22,7 +22,13 @@ class HomeModel: ObservableObject {
 
 struct HomeView: View {
     
+    @Environment(\.openURL) var openURL
+
+    
     @EnvironmentObject var settings: EditorSettings
+    @EnvironmentObject var mainModel: MainViewModel
+
+    
     @StateObject var model: HomeModel = HomeModel()
     @Namespace private var namespace
     @State private var showingSheet = false
@@ -43,7 +49,6 @@ struct HomeView: View {
                     
                     VStack (alignment: .leading, spacing: 20) {
                         
-
                             HStack(spacing: 16) {
                                 EmodjiIcon(iconText: "👋")
                                 VStack(alignment: .leading, spacing: 1) {
@@ -52,7 +57,9 @@ struct HomeView: View {
                                 }
                             }.padding(.horizontal,16)
                         
-                        
+                        if "is_app_on_review".remoteBool() == true {
+                            ConditionsTermsView()
+                        }
                         
                         if User.shared.isProUser == false {
                             ScreenContentView(color: .buttonBlue) {
@@ -83,17 +90,61 @@ struct HomeView: View {
                                     }
                                 
                             }
-                            SectionTitleView(text: "L_HomeSectionTemplates".localized(), alignment: .leading)
-                                .padding(.horizontal,16)
+                          
                         }
                         
-                     
+                        if "is_app_on_review".remoteBool() == false {
+                            
+                            
+                            VStack(alignment: .leading,spacing: 10) {
+                                SectionTitleView(text: "L_HomeAuthorWeLove".localized(), alignment: .leading)
+                                
+                                ArticleView(text: "L_HomeExploreAuthor".localized(), alignment: .leading)
+                            }.padding(.horizontal,16)
+                            if let git = mainModel.git {
+                                FavoriteCreatorsView(creators: git.favoriteCreators)
+                            }
+                            
+                            SectionTitleView(text: "L_HomeSectionTemplates".localized(), alignment: .leading)
+                                .padding(.horizontal,16)
+                            
+                        }
                         
                         TemplateMenuView(animate: $animate, namespace: namespace, topitem: $item, needSubscribe: $showingSheet).padding(.horizontal, 16)
                         
+                        ScreenContentView(color: .buttonBlue) {
+                     
+                                VStack(alignment: .leading, spacing: 20) {
+                                    
+                                    VStack(alignment: .leading, spacing: 8) {
+                                        SectionTitleView(textColor: .white, text: "L_HaveQuastions".localized(), alignment: .leading)
+                                            .padding(.horizontal, horPadding)
+                               
+                                    }
+                                    Button {
+                                        if let url = URL(string: "https://t.me/imbalanceFighter") {
+                                            openURL(url)
+                                        }
+                                    } label: {
+                                        Text("L_MailToTelegram".localized())
+                                    }.WhiteButtonStyle()
+                                        .sheet(isPresented: $showingSheet) {
+                                            SubscriptionView()
+                                        }
+                                        .padding(.horizontal, horPadding)
+                                }.background {
+                                    Image("emailus")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .opacity(0.4)
+                                        .scaleEffect(0.9)
+                                }
+                            
+                        }
                         
-                        ConditionsTermsView()
-                        
+                        if "is_app_on_review".remoteBool() == false {
+                            ConditionsTermsView()
+                        }
                     }
                     
                 }  .background(BGColor)
@@ -116,3 +167,23 @@ struct HomeView: View {
     }
 }
 
+
+
+struct HomeView_Previews: PreviewProvider {
+    
+    @StateObject static var settings = EditorSettings()
+    @StateObject static var model = MainViewModel()
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
+    static var previews: some View {
+        ZStack {
+            NavigationStack {
+                HomeView()
+                    .environmentObject(settings)
+                    .environmentObject(model)
+            }.transition(.opacity)
+            
+        }.preferredColorScheme(.light)
+            .animation(.easeInOut, value: model.screenTransitionAnimation)
+    }
+}

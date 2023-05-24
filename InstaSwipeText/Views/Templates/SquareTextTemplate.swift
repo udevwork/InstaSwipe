@@ -80,8 +80,8 @@ struct SquareTextView: View {
                 
                 VStack(alignment:.leading, spacing: reader.size.width  * (1/13)) {
                     
-                    if settings.textFieldViewModels.count > 0,  let title = settings.textFieldViewModels[0] {
-                        Text(title.text)
+                    if settings.textFieldViewModels.count > 0 {
+                        Text(settings.textFieldViewModels[0].text)
                             .font(.system(size: reader.size.width  * (1/12), weight: settings.fonts.titleFontWeight, design: settings.fonts.titleFontDesign))
                             .foregroundColor(settings.colors.mainColor)
                             .multilineTextAlignment(.leading)
@@ -91,8 +91,8 @@ struct SquareTextView: View {
                             }
                     }
                     
-                    if settings.textFieldViewModels.count > 1, let article = settings.textFieldViewModels[1] {
-                        Text(article.text)
+                    if settings.textFieldViewModels.count > 1 {
+                        Text(settings.textFieldViewModels[1].text)
                             .font(.system(size: reader.size.width  * (1/20), weight: settings.fonts.articleFontWeight, design: settings.fonts.articleFontDesign))
                             .foregroundColor(settings.colors.secondaryColor)
                             .multilineTextAlignment(.leading)

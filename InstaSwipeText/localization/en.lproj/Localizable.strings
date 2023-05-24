@@ -33,6 +33,7 @@
 "L_month" = "month";
 "L_year" = "year";
 "L_SubscribtionDetails" = "After a 3-day free trial. Periodic billing. Cancel at any time. After a 3-day free trial, the subscription is automatically activated.";
+"L_LicenseLabel" = "End-User License Agreement";
 "L_PrivacyPolicyLabel" = "Privacy Policy";
 "L_TermsConditionsLabel" = "Terms and Conditions";
 "L_restore purchaselabel" = "Restore purchase";
@@ -74,3 +75,9 @@
 "L_wide_Description" = "Two square images";
 
 "L_ApplyButtonText" = "Apply";
+
+"L_HomeAuthorWeLove" = "Authors We Love 🥰";
+"L_HomeExploreAuthor" = "Discover new authors with us!";
+"L_HaveQuastions" = "Do you have questions?";
+"L_MailToTelegram" = "Write to us!";
+"L_PhotoOfTheWeek" = "Photo of the Week";

@@ -34,7 +34,7 @@ struct SubscriptionView: View {
     }
     
     func setup(){
-        guard let product = User.shared.storeProduct,
+        guard let product = PurchasesHelper.storeProduct,
         let period = product.subscriptionPeriod else { return }
         
         productTitle = product.localizedTitle // "Weakly subscription "
@@ -93,20 +93,20 @@ struct SubscriptionView: View {
                 }
                 
                 Button {
-                    guard let product = User.shared.storeProduct else { return }
+                   
                     showLoading = true
-                    Purchases.shared.purchase(product: product) { trans, info, err, ok in
-                        if err == nil {
-                            User.shared.isProUser = true
-                        } else {
-                            User.shared.isProUser = false
-                        }
+
+                    User.shared.subscribe { success in
                         showLoading = false
                     }
+                
+                    
                 } label: {
                     Text("L_TryItForFreeLabel".localized())
                 }.BlueButtonStyle().lightShadow()
 
+
+                
                 Text("L_SubscribtionDetails".localized())
                     .multilineTextAlignment(.center)
                     .font(.system(.footnote, design: .rounded, weight: .medium))

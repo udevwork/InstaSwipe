@@ -33,6 +33,7 @@
 "L_month" = "月";
 "L_year" = "年";
 "L_SubscribtionDetails" = "3日間の無料試用期間後。周期的な請求。いつでもキャンセル可能。3日間の無料試用期間後、サブスクリプションは自動的に有効になります。";
+"L_LicenseLabel" = "ライセンス契約";
 "L_PrivacyPolicyLabel" = "プライバシーポリシー";
 "L_TermsConditionsLabel" = "利用規約";
 "L_restore purchaselabel" = "購入を復元";
@@ -72,3 +73,9 @@
 "L_wide_Description" = "二つの正方形の画像";
 
 "L_ApplyButtonText" = "適用";
+
+"L_HomeAuthorWeLove" = "大好きな著者 🥰";
+"L_HomeExploreAuthor" = "私たちと新しい著者を見つけよう!";
+"L_HaveQuastions" = "質問がありますか？";
+"L_MailToTelegram" = "私たちに書いてください!";
+"L_PhotoOfTheWeek" = "今週の写真";

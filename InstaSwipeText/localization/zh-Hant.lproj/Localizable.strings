@@ -33,6 +33,7 @@
 "L_month" = "月";
 "L_year" = "年";
 "L_SubscribtionDetails" = "免費試用3天後，定期結算。隨時取消。免費試用3天後，訂閱將自動啟動。";
+"L_LicenseLabel" = "授權協議";
 "L_PrivacyPolicyLabel" = "隱私政策";
 "L_TermsConditionsLabel" = "條款和條件";
 "L_restore purchaselabel" = "恢復購買";
@@ -72,3 +73,9 @@
 "L_wide_Description" = "兩個正方形圖像";
 
 "L_ApplyButtonText" = "應用";
+
+"L_HomeAuthorWeLove" = "我們喜愛的作者 🥰";
+"L_HomeExploreAuthor" = "和我們一起發現新的作者!";
+"L_HaveQuastions" = "有任何問題嗎？";
+"L_MailToTelegram" = "寫信給我們!";
+"L_PhotoOfTheWeek" = "本週的照片";

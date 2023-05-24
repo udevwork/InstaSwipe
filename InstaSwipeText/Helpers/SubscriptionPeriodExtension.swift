@@ -13,13 +13,13 @@ extension SubscriptionPeriod {
     func periodToText() -> String {
         switch self.unit {
             case .day:
-                return "day".localized()
+                return "L_day".localized()
             case .week:
-                return "week".localized()
+                return "L_week".localized()
             case .month:
-                return "month".localized()
+                return "L_month".localized()
             case .year:
-                return "year".localized()
+                return "L_year".localized()
         }
     }
 }

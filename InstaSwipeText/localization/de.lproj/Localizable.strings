@@ -33,6 +33,7 @@
 "L_month" = "Monat";
 "L_year" = "Jahr";
 "L_SubscribtionDetails" = "Nach der 3-tägigen kostenlosen Testversion. Periodische Abrechnung. Jederzeit kündbar. Nach der 3-tägigen kostenlosen Testversion wird das Abonnement automatisch aktiviert.";
+"L_LicenseLabel" = "Lizenzvereinbarung";
 "L_PrivacyPolicyLabel" = "Datenschutzbestimmungen";
 "L_TermsConditionsLabel" = "Geschäftsbedingungen";
 "L_restore purchaselabel" = "Kauf wiederherstellen";
@@ -72,3 +73,9 @@
 "L_wide_Description" = "Zwei quadratische Bilder";
 
 "L_ApplyButtonText" = "Anwenden";
+
+"L_HomeAuthorWeLove" = "Autoren, die wir lieben 🥰";
+"L_HomeExploreAuthor" = "Entdecken Sie neue Autoren mit uns!";
+"L_HaveQuastions" = "Haben Sie Fragen?";
+"L_MailToTelegram" = "Schreiben Sie uns!";
+"L_PhotoOfTheWeek" = "Foto der Woche";

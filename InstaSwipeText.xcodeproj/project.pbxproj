@@ -20,6 +20,8 @@
 		9235997F29A2A6C70050BDF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9235997E29A2A6C70050BDF2 /* Preview Assets.xcassets */; };
 		923C23752A0C1F58009E4250 /* ImageWithLargeMenuTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923C23742A0C1F58009E4250 /* ImageWithLargeMenuTemplate.swift */; };
 		924580A62A015A58003F37EA /* TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924580A52A015A58003F37EA /* TextEditor.swift */; };
+		9249B9882A1CD62D003CB031 /* GithubFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249B9872A1CD62D003CB031 /* GithubFetcher.swift */; };
+		9249B98B2A1CE6F6003CB031 /* FavoriteCreators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9249B98A2A1CE6F6003CB031 /* FavoriteCreators.swift */; };
 		92571A5229A5173800A04F20 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 92571A5129A5173800A04F20 /* AlertToast */; };
 		92571A5729A540A300A04F20 /* Sacramento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92571A5529A540A300A04F20 /* Sacramento-Regular.ttf */; };
 		92571A6F29A5420700A04F20 /* GreatVibes-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92571A5B29A5420700A04F20 /* GreatVibes-Regular.ttf */; };
@@ -56,6 +58,8 @@
 		925BEE282A0AC566008B947E /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925BEE272A0AC566008B947E /* Analytics.swift */; };
 		9269084829CB17E800C50B6F /* ConditionsTermsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269084729CB17E800C50B6F /* ConditionsTermsView.swift */; };
 		9269084A29CB1BCA00C50B6F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269084929CB1BCA00C50B6F /* OnboardingView.swift */; };
+		929068DB2A18FA3E00AB3E5C /* PurchasesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929068DA2A18FA3E00AB3E5C /* PurchasesHelper.swift */; };
+		929068DD2A18FAC000AB3E5C /* RaterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929068DC2A18FAC000AB3E5C /* RaterHelper.swift */; };
 		92BEC8A829A77192006F7C17 /* blackfilter.metal in Sources */ = {isa = PBXBuildFile; fileRef = 92BEC8A729A77192006F7C17 /* blackfilter.metal */; };
 		92BEC8AA29A9FCAC006F7C17 /* UIModification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BEC8A929A9FCAC006F7C17 /* UIModification.swift */; };
 		92BEC8DB29AA43C2006F7C17 /* SixCaps-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92BEC8AC29AA43C1006F7C17 /* SixCaps-Regular.ttf */; };
@@ -106,6 +110,8 @@
 		9235998529A2BB850050BDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		923C23742A0C1F58009E4250 /* ImageWithLargeMenuTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithLargeMenuTemplate.swift; sourceTree = "<group>"; };
 		924580A52A015A58003F37EA /* TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor.swift; sourceTree = "<group>"; };
+		9249B9872A1CD62D003CB031 /* GithubFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubFetcher.swift; sourceTree = "<group>"; };
+		9249B98A2A1CE6F6003CB031 /* FavoriteCreators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCreators.swift; sourceTree = "<group>"; };
 		92571A5529A540A300A04F20 /* Sacramento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sacramento-Regular.ttf"; sourceTree = "<group>"; };
 		92571A5B29A5420700A04F20 /* GreatVibes-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GreatVibes-Regular.ttf"; sourceTree = "<group>"; };
 		92571A5D29A5420700A04F20 /* DarkerGrotesque-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DarkerGrotesque-Black.ttf"; sourceTree = "<group>"; };
@@ -139,6 +145,8 @@
 		925BEE272A0AC566008B947E /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		9269084729CB17E800C50B6F /* ConditionsTermsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsTermsView.swift; sourceTree = "<group>"; };
 		9269084929CB1BCA00C50B6F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		929068DA2A18FA3E00AB3E5C /* PurchasesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasesHelper.swift; sourceTree = "<group>"; };
+		929068DC2A18FAC000AB3E5C /* RaterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaterHelper.swift; sourceTree = "<group>"; };
 		92BEC8A729A77192006F7C17 /* blackfilter.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = blackfilter.metal; sourceTree = "<group>"; };
 		92BEC8A929A9FCAC006F7C17 /* UIModification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIModification.swift; sourceTree = "<group>"; };
 		92BEC8AC29AA43C1006F7C17 /* SixCaps-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SixCaps-Regular.ttf"; sourceTree = "<group>"; };
@@ -347,6 +355,9 @@
 				92BFB52429F3C1D800F9BA32 /* Float-Extension.swift */,
 				92E8C8952A0A77CB00817AAA /* ShareInsta.swift */,
 				925BEE272A0AC566008B947E /* Analytics.swift */,
+				929068DA2A18FA3E00AB3E5C /* PurchasesHelper.swift */,
+				929068DC2A18FAC000AB3E5C /* RaterHelper.swift */,
+				9249B9872A1CD62D003CB031 /* GithubFetcher.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -363,6 +374,7 @@
 				922E622929C74967008BC04A /* ScreenContentView.swift */,
 				922E622B29C74F9C008BC04A /* TemplateMenuItemView.swift */,
 				92E8C87F2A064E8F00817AAA /* EmodjiIcon.swift */,
+				9249B98A2A1CE6F6003CB031 /* FavoriteCreators.swift */,
 			);
 			path = OtherViews;
 			sourceTree = "<group>";
@@ -627,6 +639,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9249B98B2A1CE6F6003CB031 /* FavoriteCreators.swift in Sources */,
 				9269084A29CB1BCA00C50B6F /* OnboardingView.swift in Sources */,
 				9259AA9E29BBA6F400DF9393 /* SpacingView.swift in Sources */,
 				922E622C29C74F9C008BC04A /* TemplateMenuItemView.swift in Sources */,
@@ -651,12 +664,15 @@
 				9259AAC429BC9E3700DF9393 /* LocalizedHelper.swift in Sources */,
 				9259AAA829BBAD9400DF9393 /* SubscriptionView.swift in Sources */,
 				92E8C8802A064E8F00817AAA /* EmodjiIcon.swift in Sources */,
+				9249B9882A1CD62D003CB031 /* GithubFetcher.swift in Sources */,
 				9259AA9629BB2C4C00DF9393 /* ImageWithMenuTemplate.swift in Sources */,
 				9259AA9229BB209100DF9393 /* StoriesTeplate.swift in Sources */,
+				929068DD2A18FAC000AB3E5C /* RaterHelper.swift in Sources */,
 				9259AA9C29BBA67600DF9393 /* EditorViews.swift in Sources */,
 				922E622A29C74967008BC04A /* ScreenContentView.swift in Sources */,
 				9235997829A2A6C50050BDF2 /* App.swift in Sources */,
 				9259AAA029BBA86200DF9393 /* TextLogoView.swift in Sources */,
+				929068DB2A18FA3E00AB3E5C /* PurchasesHelper.swift in Sources */,
 				9259AA9829BB2C8900DF9393 /* Constants.swift in Sources */,
 				92FFAE5629E5DD9F00EE07E1 /* ImagesToSavePreviewView.swift in Sources */,
 				92E8C8962A0A77CB00817AAA /* ShareInsta.swift in Sources */,
@@ -806,7 +822,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"InstaSwipeText/Preview Content\"";
 				DEVELOPMENT_TEAM = 87XM268947;
 				ENABLE_PREVIEWS = YES;
@@ -842,7 +858,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"InstaSwipeText/Preview Content\"";
 				DEVELOPMENT_TEAM = 87XM268947;
 				ENABLE_PREVIEWS = YES;

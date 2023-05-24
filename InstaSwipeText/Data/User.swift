@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import RevenueCat
 import Combine
 
 class User {
@@ -15,9 +14,26 @@ class User {
     
     @Published public var isProUser: Bool = false
     
-    public var storeProduct: StoreProduct? = nil
-    
     private init(){
        
     }
+    
+    func subscribe(_ completion: @escaping (Bool)->()) {
+        PurchasesHelper.eligibility { eligibility in
+            if eligibility == .eligible {
+                PurchasesHelper.trial { trans, info, err, ok in
+                    let result = (err == nil)
+                    User.shared.isProUser = result
+                    completion(result)
+                }
+            } else {
+                PurchasesHelper.subscribe { trans, info, err, ok in
+                    let result = (err == nil)
+                    User.shared.isProUser = result
+                    completion(result)
+                }
+            }
+        }
+    }
+    
 }

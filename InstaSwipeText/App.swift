@@ -15,51 +15,31 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
         FirebaseApp.configure()
+        PurchasesHelper.configure()
+        RaterHelper.configure()
         
-        Purchases.logLevel = .debug
-        Purchases.configure(withAPIKey: "appl_wuAXIwjhiGzZaJfIGEVpaiMltWW")
-        
-        Purchases.shared.getOfferings { offerings, error in
-            offerings?.all.forEach({ (key, value) in
-               
-                value.availablePackages.forEach { pack in
-                    if pack.storeProduct.productIdentifier == "weakly_subscription" {
-                        User.shared.storeProduct = pack.storeProduct
-                    }
-                }
-                
-            })
+        PurchasesHelper.isSubscribed {
+            User.shared.isProUser = $0
         }
-        
-        
-       
-        Purchases.shared.getCustomerInfo { (customerInfo, error) in
-            if customerInfo?.entitlements["PRO"]?.isActive == true {
-                User.shared.isProUser = true
-            }
-        }
-        
-        SwiftRater.daysUntilPrompt = 0
-        SwiftRater.usesUntilPrompt = 1
-        SwiftRater.significantUsesUntilPrompt = 2
-        SwiftRater.daysBeforeReminding = 1
-        SwiftRater.showLaterButton = true
-        SwiftRater.debugMode = false
-        SwiftRater.appLaunched()
-
         
         return true
     }
-    
-
-    
 }
 
 
 class MainViewModel: ObservableObject {
     
+    let githubfetcher = GithubFetcher()
+    @Published var git: GithubAppData? = nil
+    
+    var isGitFetchComplete: Bool = false
+    var isFirebaseFetchComplete: Bool = false
+
+    
     @Published var isLoadingComplete: Bool = false
+    
     @Published var needToPresentOnboarding = false
     @Published var screenTransitionAnimation = false
     
@@ -67,10 +47,18 @@ class MainViewModel: ObservableObject {
         Task {
             try await startFetching()
         }
-        
+        githubfetcher.getRawTextFromGithub { [weak self] data in
+            DispatchQueue.main.async {
+                self?.git = data
+                self?.isGitFetchComplete = true
+                self?.checkIfEveryLoadingCompleted()
+            }
+           
+        }
     }
     
     private func startFetching() async throws {
+        
         let rc = RemoteConfig.remoteConfig()
         let settings = RemoteConfigSettings()
         settings.minimumFetchInterval = 0
@@ -81,22 +69,16 @@ class MainViewModel: ObservableObject {
             switch config {
                 case .successFetchedFromRemote:
                     print( rc.configValue(forKey: "appLink").stringValue as Any)
-                    DispatchQueue.main.async {
-                        
-                        self.isLoadingComplete = true
-                        self.screenTransitionAnimation.toggle()
-                        self.checkIfNeedToShowOnboarding()
-                    }
+                 
+                    self.isFirebaseFetchComplete = true
+                    self.checkIfEveryLoadingCompleted()
                     
                     return
                 case .successUsingPreFetchedData:
                     print( rc.configValue(forKey: "appLink").stringValue as Any)
-                    DispatchQueue.main.async {
-                        
-                        self.isLoadingComplete = true
-                        self.screenTransitionAnimation.toggle()
-                        self.checkIfNeedToShowOnboarding()
-                    }
+                
+                    self.isFirebaseFetchComplete = true
+                    self.checkIfEveryLoadingCompleted()
                     return
                 default:
                     print("Error activating")
@@ -107,11 +89,21 @@ class MainViewModel: ObservableObject {
         }
     }
     
+    func checkIfEveryLoadingCompleted(){
+        if isGitFetchComplete && isFirebaseFetchComplete {
+            DispatchQueue.main.asyncAfter(deadline: .now()+3, execute: {
+                self.isLoadingComplete = true
+                self.checkIfNeedToShowOnboarding()
+                self.screenTransitionAnimation.toggle()
+            })
+            
+        }
+    }
+    
     func checkIfNeedToShowOnboarding(){
         let OnboardingWasShowed = UserDefaults.standard.bool(forKey: "OnboardingWasShowed")
         if OnboardingWasShowed == false {
             needToPresentOnboarding = true
-            self.screenTransitionAnimation.toggle()
         }
     }
     
@@ -134,7 +126,9 @@ struct InstaSwipeTextApp: App {
             ZStack {
                 if model.isLoadingComplete, model.needToPresentOnboarding == false {
                     NavigationStack {
-                        HomeView().environmentObject(settings)
+                        HomeView()
+                            .environmentObject(settings)
+                            .environmentObject(model)
                     }.transition(.opacity)
                 }
                 
@@ -143,7 +137,9 @@ struct InstaSwipeTextApp: App {
                 }
    
                 if model.isLoadingComplete == false {
-                    LaunchScreenView().transition(.opacity)
+                    LaunchScreenView()
+                        .transition(.opacity)
+                        .environmentObject(model)
                 }
             }.preferredColorScheme(.light)
                 .animation(.easeInOut, value: model.screenTransitionAnimation)

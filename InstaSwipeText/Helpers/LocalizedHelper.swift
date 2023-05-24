@@ -14,8 +14,12 @@ extension String {
         NSLocalizedString(self, comment: "")
     }
     
-    func remote(def: String = "") -> String{
+    func remote(def: String = "") -> String {
         RemoteConfig.remoteConfig().configValue(forKey: self).stringValue ?? def
+    }
+    
+    func remoteBool() -> Bool {
+        RemoteConfig.remoteConfig().configValue(forKey: self).boolValue
     }
     
 }
