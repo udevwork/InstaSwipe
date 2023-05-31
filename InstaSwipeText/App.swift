@@ -16,7 +16,21 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
-        FirebaseApp.configure()
+        
+        var firebasePlistFileName = ""
+        #if DEBUG
+        firebasePlistFileName = "GoogleService-Info-Debug"
+        #else
+        firebasePlistFileName = "GoogleService-Info-Release"
+        #endif
+
+        guard let filePath = Bundle.main.path(forResource: firebasePlistFileName, ofType: "plist"),
+            let options = FirebaseOptions(contentsOfFile: filePath)
+        else {
+            fatalError("Couldn't load config file")
+        }
+        
+        FirebaseApp.configure(options: options)
         PurchasesHelper.configure()
         RaterHelper.configure()
         
@@ -118,7 +132,7 @@ struct InstaSwipeTextApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     init() {
-        setupNavigationBar()
+        
     }
     
     var body: some Scene {
@@ -144,13 +158,5 @@ struct InstaSwipeTextApp: App {
             }.preferredColorScheme(.light)
                 .animation(.easeInOut, value: model.screenTransitionAnimation)
         }
-    }
-    
-    private func setupNavigationBar(){
-//        //Use this if NavigationBarTitle is with Large Font
-//        UINavigationBar.appearance().largeTitleTextAttributes = [.font : UIFont(name: "CormorantGaramond-Bold", size: 50)!]
-//
-//        //Use this if NavigationBarTitle is with displayMode = .inline
-//        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "CormorantGaramond-Bold", size: 20)!]
     }
 }

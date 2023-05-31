@@ -67,7 +67,7 @@ struct FavoriteCreatorsView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack (spacing: 0) {
-                SpacingView(side: .horizontal, size: horPadding)
+                SpacingView(side: .horizontal, size: horPadding/2)
                 ForEach(self.creators, id: \.self) { creator in
                     ZStack {
                         FavoriteCreatorIconView(creator: creator)
